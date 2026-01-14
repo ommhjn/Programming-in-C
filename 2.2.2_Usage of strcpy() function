@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+	char src[100];  // Source string
+	char dest[100]; // Destination string
+	
+	scanf("%[^\n]",src);
+	strcpy(dest,src);
+    // printf("%s\n",dest);    
+    
+	// Print the copied string
+	printf("%s\n", dest);
+	
+	return 0;
+}
